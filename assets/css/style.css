@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+    background-color: black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    min-width: 550px;
+}
+
+h3 {
+    line-height: 20pt;
+    margin: 0;
+    
+}
+h4 {
+    font-size: 14pt;
+    margin: 0;
+    
+}
+
+h5 {
+    font-size: 12pt;
+    margin: 0;
+
+}
+
+
+.container {
+    margin: 100px;
+    margin-top: 10px;
+    padding: 0px;
+    width: 1100px;
+    min-width: 550px;
+
+}
+
+.row {
+    margin: 0;
+}
+
+.col-12 {
+    padding: 0px;
+    position: relative;
+
+}
+
+.theaterPicLight, .theaterPicDark  {
+    height: 510px;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.theaterPicLight {
+    z-index: 1;
+   
+}
+
+.theaterPicDark {
+    z-index: 1;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+} 
+
+.shortFilm {
+    display: none;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-49.1%);
+    width: auto;
+    height: 311px;
+    z-index: 2;
+    opacity: .8;
+}
+
+.quizz {
+    margin-top: 10px;
+
+
+}
+
+.questions {
+    min-height: 220px;
+    background-color: rgb(194, 194, 149);
+    border-radius: 15px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 15px;
+
+}
+
+.triviaText {
+    line-height: 10px;
+    text-align: center;
+}
+
+.answers {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.oneAnswer {
+    min-height: 25%;
+    background-color: rgb(194, 194, 149);
+    border-radius: 15px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 15px;
+}
+
+@media screen and (max-width: 980px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        margin: 40px;
+    }
+    .shortFilm {
+        width: 450px;
+        height: auto;
+        top: 25px;
+        max-height: 290px;
+    }
+
+}
