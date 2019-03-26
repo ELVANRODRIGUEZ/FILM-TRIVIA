@@ -387,7 +387,7 @@ $(document).on("click", "#start", function () {
     TriviaObj.questionTimer = 0;
     TriviaObj.movieTimer = 0;
     TriviaObj.totalTime = 0;
-    TriviaObj.questionNumber = 12;
+    TriviaObj.questionNumber = 0;
     TriviaObj.rightAnswer = 0;
     TriviaObj.selectedAnswer = "";
 
