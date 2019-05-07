@@ -1,8 +1,5 @@
-Trivia Game
+# **FILM TRIVIA**
 
-This is a simple game related the films. 
-There will be 15 multiple choice questions film related. 
-It is a quizz that will count the wrong and right answers. 
-After each answer, a short gif will be broadcasted illustrating the right answer.
-There will be a timer for each question. 
-Afger the quizz the score will be shown and the user will get the chance to reset everything over.
+**DESCRIPTION**
+
+This is a trivia related to films. The user gets a multiple option quiz in which film related questions will be asked. He/she will have a time limit to answer; if the answer is correct, a short film will be played on th screen, but if it is wrong, no short film will be played but the right answer will be shown, as opposed to not answering at all, in which case the user will not even get the right answer as feedback. At the end, the score will be given to the user.

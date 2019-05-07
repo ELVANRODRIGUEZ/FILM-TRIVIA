@@ -138,7 +138,7 @@ var TriviaObj = {
     ],
 
     rightAnswerArr: [
-        "Roundhay Garden Scene is the oldes film we have record of. It was filmed in 1888.",
+        "Roundhay Garden Scene is the oldest film we have record of. It was filmed in 1888.",
         "Le Manoir du Diable was the first horror movie ever filmed. It is from 1896.",
         "A Trip to the Moon was a tribut for the famous Jules Verne novel. It is from 1902.",
         "Gone with the Wind has been the highest-grossing film by now if we bring its budget to present value. It is from 1939.",
